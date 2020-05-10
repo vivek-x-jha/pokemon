@@ -1,7 +1,7 @@
 USE pokemon;
 
 LOAD DATA
-    LOCAL INFILE '/Users/vivekjha/Dropbox/tech/projects/pokemondb/source_data/serebii.csv'
+    LOCAL INFILE '/Users/vivekjha/Dropbox/tech/projects/pokemon/source_data/serebii.csv'
 	INTO TABLE serebii
 	FIELDS TERMINATED BY ','
 	OPTIONALLY ENCLOSED BY '"'
@@ -52,7 +52,7 @@ LOAD DATA
 	);
 
 LOAD DATA
-    LOCAL INFILE '/Users/vivekjha/Dropbox/tech/projects/pokemondb/source_data/pokestats.csv'
+    LOCAL INFILE '/Users/vivekjha/Dropbox/tech/projects/pokemon/source_data/pokestats.csv'
 	INTO TABLE pokestats
 	FIELDS TERMINATED BY ','
 	LINES TERMINATED BY '\n'
